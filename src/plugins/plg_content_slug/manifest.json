@@ -4,7 +4,7 @@
   "type": "plugin",
   "vendor": "klucon",
   "extension_id": "klucon/plg_content_slug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "display_name": "Obsah - Slug",
   "display_name_key": "extensions.name.plg_content_slug",
   "description": "Doplňková normalizace slugů článků při uložení obsahu.",
@@ -30,16 +30,26 @@
     "path": "migrations"
   },
   "security": {
-    "capabilities": ["plugin.hooks", "database.write"]
+    "capabilities": [
+      "plugin.hooks",
+      "database.write"
+    ]
   },
   "settings_schema": [],
   "marketplace": {
     "category": "content",
-    "tags": ["content", "slug", "seo"]
+    "tags": [
+      "content",
+      "slug",
+      "seo"
+    ]
   },
   "i18n": {
     "domain": "plg_content_slug"
   },
-  "locales": ["cs_CZ", "en_GB"],
+  "locales": [
+    "cs_CZ",
+    "en_GB"
+  ],
   "changelog": "První verze pluginu pro doplňkovou normalizaci slugů."
 }
